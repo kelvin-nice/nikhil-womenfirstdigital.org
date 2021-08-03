@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,100; 0,200; 0,300; 0,800; 0,900; 1,100 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,100; 0,200; 0,300; 0,800; 0,900; 1,100 & family = Roboto: wght @ 100; 300; 400; 700 & display = swap ');
+@import url(menu.css);
+@import url(dreams1.css);
+@import url(partners.css);
+@import url(activity.css);
+@import url(search.css);
+@import url(footer.css);
+
+#contenedor{
+    width: 97%;
+    margin: 0 auto;
+    max-width: 940px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    color: #444444;
+}
+
+h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,100; 0,200; 0,300; 0,800; 0,900; 1,100 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,100; 0,200; 0,300; 0,800; 0,900; 1,100 & family = Roboto: wght @ 100; 300; 400; 700 & display = swap ');
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.grid-container div{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 310px;
+}
+.grid-container div p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    
+}
+
+.item1{
+    background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)), 
+    url(/img/1.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+.item2{
+    background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)),
+     url(/img/2.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.item3{
+    background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)),
+     url(/img/3.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.item4{
+    background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)),
+     url(/img/4.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.item5{
+    background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)),
+     url(/img/5.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 5px;
+    grid-column: 2 / span 2;
+    
+}
+.item6{
+    background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)),
+     url(/img/6.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 5px;
+    grid-column: 1 / span 2;
+}
+.item7{
+    background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)),
+     url(/img/7.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+
+@media (max-width: 747px) {
+    .grid-container div{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 120px;
+        width: 100%;
+    }
+    .grid-container{
+        display: flex;
+        flex-wrap: wrap;
+        columns: 1;
+        gap: 8px;
+        
+    }
+    .item5{
+        
+        grid-column: 1;
+        
+    }
+    .item6{
+        
+        grid-column: 1;
+    }
+  }
+
+  

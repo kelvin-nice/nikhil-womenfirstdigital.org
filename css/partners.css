@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,100; 0,200; 0,300; 0,800; 0,900; 1,100 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,100; 0,200; 0,300; 0,800; 0,900; 1,100 & family = Roboto: wght @ 100; 300; 400; 700 & display = swap ');
+
+.partners{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.article2{
+    display: block;
+    text-align: center;
+    margin: 15px;
+}
+.article2 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+}
+.partners article img{
+    width: 110px;
+}
+.btn-carga{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FF4E50;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 40px;
+    border: 2px solid;
+}
+.btn-carga:hover{
+    background-color: #FF4E50;
+    color: #ffffff;
+    transition: 0.5s; 
+}
+@media (max-width: 747px) {
+    .partners {
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .article2{
+        width: 240px;
+    }
+  }
+
+  @media (max-width: 516px) {
+    
+    .btn-carga{
+        width: 270px;
+    }
+  }
+
+  

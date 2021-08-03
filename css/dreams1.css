@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,100; 0,200; 0,300; 0,800; 0,900; 1,100 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,100; 0,200; 0,300; 0,800; 0,900; 1,100 & family = Roboto: wght @ 100; 300; 400; 700 & display = swap ');
+
+.dreams{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.dreams div{
+    height: 400px;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    
+}
+.dreams div article{
+    position: absolute;
+    bottom: 0px;
+    padding-right: 20px;
+}
+
+
+.dreams div .titulo-card{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 14px;
+    margin-top: 45px;
+    
+}
+.dreams div a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 12px;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    padding: 5px 16px;
+    border-radius: 30px;
+    background-color: #FF4E50;  
+}
+.dreams div a:hover{
+    background-color: white;
+    color: #fb7c7f;
+    transition: 0.5s; 
+}
+
+.dreams div p{
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+
+
+.card1-a{
+    background: url(/img/step1.png) no-repeat center bottom;
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+.card1-b{
+    background: url(/img/step2.png) no-repeat center bottom;
+    background-size: cover;
+    border-radius: 5px;
+}
+.card1-c{
+    background: url(/img/step3.png) no-repeat center bottom;
+    background-size: cover;
+    border-radius: 5px;
+}
+.dreams div img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+@media (max-width: 747px) {
+    .dreams {
+      flex-wrap: wrap;
+    }
+    .dreams div{
+        height: 240px;
+        width: 100%;
+    }
+  }
+
+  
