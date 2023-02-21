@@ -26,32 +26,32 @@
 
 .item1{
     background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)), 
-    url(/img/1.png) no-repeat center center;
+    url(../img/1.png) no-repeat center center;
     background-size: cover;
     border-radius: 5px;
     
 }
 .item2{
     background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)),
-     url(/img/2.png) no-repeat center center;
+     url(../img/2.png) no-repeat center center;
     background-size: cover;
     border-radius: 5px;
 }
 .item3{
     background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)),
-     url(/img/3.png) no-repeat center center;
+     url(../img/3.png) no-repeat center center;
     background-size: cover;
     border-radius: 5px;
 }
 .item4{
     background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)),
-     url(/img/4.png) no-repeat center center;
+     url(../img/4.png) no-repeat center center;
     background-size: cover;
     border-radius: 5px;
 }
 .item5{
     background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)),
-     url(/img/5.png) no-repeat center center;
+     url(../img/5.png) no-repeat center center;
     background-size: cover;
     border-radius: 5px;
     grid-column: 2 / span 2;
@@ -59,14 +59,14 @@
 }
 .item6{
     background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)),
-     url(/img/6.png) no-repeat center center;
+     url(../img/6.png) no-repeat center center;
     background-size: cover;
     border-radius: 5px;
     grid-column: 1 / span 2;
 }
 .item7{
     background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(87, 100, 133, 0.2)),
-     url(/img/7.png) no-repeat center center;
+     url(../img/7.png) no-repeat center center;
     background-size: cover;
     border-radius: 5px;
 }
