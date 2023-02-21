@@ -62,18 +62,18 @@
 
 
 .card1-a{
-    background: url(/img/step1.png) no-repeat center bottom;
+    background: url(../img/step1.png) no-repeat center bottom;
     background-size: cover;
     border-radius: 5px;
     
 }
 .card1-b{
-    background: url(/img/step2.png) no-repeat center bottom;
+    background: url(../img/step2.png) no-repeat center bottom;
     background-size: cover;
     border-radius: 5px;
 }
 .card1-c{
-    background: url(/img/step3.png) no-repeat center bottom;
+    background: url(../img/step3.png) no-repeat center bottom;
     background-size: cover;
     border-radius: 5px;
 }
